@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B66F1228538A6700F95F99 /* CoinKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F1128538A6700F95F99 /* CoinKeeperApp.swift */; };
+		F5B66F1428538A6700F95F99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F1328538A6700F95F99 /* ContentView.swift */; };
+		F5B66F1628538A6B00F95F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B66F1528538A6B00F95F99 /* Assets.xcassets */; };
+		F5B66F1928538A6B00F95F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B66F1828538A6B00F95F99 /* Preview Assets.xcassets */; };
+		F5B66F2328538A6B00F95F99 /* CoinKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2228538A6B00F95F99 /* CoinKeeperTests.swift */; };
+		F5B66F2D28538A6C00F95F99 /* CoinKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2C28538A6C00F95F99 /* CoinKeeperUITests.swift */; };
+		F5B66F2F28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B66F1F28538A6B00F95F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B66F0628538A6600F95F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B66F0D28538A6700F95F99;
+			remoteInfo = CoinKeeper;
+		};
+		F5B66F2928538A6B00F95F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B66F0628538A6600F95F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B66F0D28538A6700F95F99;
+			remoteInfo = CoinKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B66F0E28538A6700F95F99 /* CoinKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B66F1128538A6700F95F99 /* CoinKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperApp.swift; sourceTree = "<group>"; };
+		F5B66F1328538A6700F95F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5B66F1528538A6B00F95F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B66F1828538A6B00F95F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5B66F1E28538A6B00F95F99 /* CoinKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B66F2228538A6B00F95F99 /* CoinKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperTests.swift; sourceTree = "<group>"; };
+		F5B66F2828538A6B00F95F99 /* CoinKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B66F2C28538A6C00F95F99 /* CoinKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperUITests.swift; sourceTree = "<group>"; };
+		F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B66F0B28538A6700F95F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F1B28538A6B00F95F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F2528538A6B00F95F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B66F0528538A6600F95F99 = {
+			isa = PBXGroup;
+			children = (
+				F5B66F1028538A6700F95F99 /* CoinKeeper */,
+				F5B66F2128538A6B00F95F99 /* CoinKeeperTests */,
+				F5B66F2B28538A6C00F95F99 /* CoinKeeperUITests */,
+				F5B66F0F28538A6700F95F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B66F0F28538A6700F95F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F0E28538A6700F95F99 /* CoinKeeper.app */,
+				F5B66F1E28538A6B00F95F99 /* CoinKeeperTests.xctest */,
+				F5B66F2828538A6B00F95F99 /* CoinKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B66F1028538A6700F95F99 /* CoinKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F1128538A6700F95F99 /* CoinKeeperApp.swift */,
+				F5B66F1328538A6700F95F99 /* ContentView.swift */,
+				F5B66F1528538A6B00F95F99 /* Assets.xcassets */,
+				F5B66F1728538A6B00F95F99 /* Preview Content */,
+			);
+			path = CoinKeeper;
+			sourceTree = "<group>";
+		};
+		F5B66F1728538A6B00F95F99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F1828538A6B00F95F99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5B66F2128538A6B00F95F99 /* CoinKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F2228538A6B00F95F99 /* CoinKeeperTests.swift */,
+			);
+			path = CoinKeeperTests;
+			sourceTree = "<group>";
+		};
+		F5B66F2B28538A6C00F95F99 /* CoinKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F2C28538A6C00F95F99 /* CoinKeeperUITests.swift */,
+				F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */,
+			);
+			path = CoinKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B66F0D28538A6700F95F99 /* CoinKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B66F3228538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeper" */;
+			buildPhases = (
+				F5B66F0A28538A6700F95F99 /* Sources */,
+				F5B66F0B28538A6700F95F99 /* Frameworks */,
+				F5B66F0C28538A6700F95F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinKeeper;
+			productName = CoinKeeper;
+			productReference = F5B66F0E28538A6700F95F99 /* CoinKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B66F1D28538A6B00F95F99 /* CoinKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B66F3528538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeperTests" */;
+			buildPhases = (
+				F5B66F1A28538A6B00F95F99 /* Sources */,
+				F5B66F1B28538A6B00F95F99 /* Frameworks */,
+				F5B66F1C28538A6B00F95F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B66F2028538A6B00F95F99 /* PBXTargetDependency */,
+			);
+			name = CoinKeeperTests;
+			productName = CoinKeeperTests;
+			productReference = F5B66F1E28538A6B00F95F99 /* CoinKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B66F2728538A6B00F95F99 /* CoinKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B66F3828538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeperUITests" */;
+			buildPhases = (
+				F5B66F2428538A6B00F95F99 /* Sources */,
+				F5B66F2528538A6B00F95F99 /* Frameworks */,
+				F5B66F2628538A6B00F95F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B66F2A28538A6B00F95F99 /* PBXTargetDependency */,
+			);
+			name = CoinKeeperUITests;
+			productName = CoinKeeperUITests;
+			productReference = F5B66F2828538A6B00F95F99 /* CoinKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B66F0628538A6600F95F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F5B66F0D28538A6700F95F99 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F5B66F1D28538A6B00F95F99 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F5B66F0D28538A6700F95F99;
+					};
+					F5B66F2728538A6B00F95F99 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F5B66F0D28538A6700F95F99;
+					};
+				};
+			};
+			buildConfigurationList = F5B66F0928538A6600F95F99 /* Build configuration list for PBXProject "CoinKeeper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B66F0528538A6600F95F99;
+			productRefGroup = F5B66F0F28538A6700F95F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B66F0D28538A6700F95F99 /* CoinKeeper */,
+				F5B66F1D28538A6B00F95F99 /* CoinKeeperTests */,
+				F5B66F2728538A6B00F95F99 /* CoinKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B66F0C28538A6700F95F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B66F1928538A6B00F95F99 /* Preview Assets.xcassets in Resources */,
+				F5B66F1628538A6B00F95F99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F1C28538A6B00F95F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F2628538A6B00F95F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B66F0A28538A6700F95F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B66F1428538A6700F95F99 /* ContentView.swift in Sources */,
+				F5B66F1228538A6700F95F99 /* CoinKeeperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F1A28538A6B00F95F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B66F2328538A6B00F95F99 /* CoinKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B66F2428538A6B00F95F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B66F2D28538A6C00F95F99 /* CoinKeeperUITests.swift in Sources */,
+				F5B66F2F28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B66F2028538A6B00F95F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B66F0D28538A6700F95F99 /* CoinKeeper */;
+			targetProxy = F5B66F1F28538A6B00F95F99 /* PBXContainerItemProxy */;
+		};
+		F5B66F2A28538A6B00F95F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B66F0D28538A6700F95F99 /* CoinKeeper */;
+			targetProxy = F5B66F2928538A6B00F95F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5B66F3028538A6C00F95F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B66F3128538A6C00F95F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B66F3328538A6C00F95F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinKeeper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B66F3428538A6C00F95F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinKeeper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B66F3628538A6C00F95F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinKeeper.app/CoinKeeper";
+			};
+			name = Debug;
+		};
+		F5B66F3728538A6C00F95F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinKeeper.app/CoinKeeper";
+			};
+			name = Release;
+		};
+		F5B66F3928538A6C00F95F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinKeeper;
+			};
+			name = Debug;
+		};
+		F5B66F3A28538A6C00F95F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vlad.CoinKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B66F0928538A6600F95F99 /* Build configuration list for PBXProject "CoinKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B66F3028538A6C00F95F99 /* Debug */,
+				F5B66F3128538A6C00F95F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B66F3228538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B66F3328538A6C00F95F99 /* Debug */,
+				F5B66F3428538A6C00F95F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B66F3528538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B66F3628538A6C00F95F99 /* Debug */,
+				F5B66F3728538A6C00F95F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B66F3828538A6C00F95F99 /* Build configuration list for PBXNativeTarget "CoinKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B66F3928538A6C00F95F99 /* Debug */,
+				F5B66F3A28538A6C00F95F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B66F0628538A6600F95F99 /* Project object */;
+}
