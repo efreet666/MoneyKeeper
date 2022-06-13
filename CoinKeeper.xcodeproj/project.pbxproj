@@ -14,6 +14,10 @@
 		F5B66F2328538A6B00F95F99 /* CoinKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2228538A6B00F95F99 /* CoinKeeperTests.swift */; };
 		F5B66F2D28538A6C00F95F99 /* CoinKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2C28538A6C00F95F99 /* CoinKeeperUITests.swift */; };
 		F5B66F2F28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */; };
+		F5B66F3C28538BD800F95F99 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F3B28538BD800F95F99 /* TransactionModel.swift */; };
+		F5B66F3E28538D3000F95F99 /* transactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F3D28538D3000F95F99 /* transactionData.swift */; };
+		F5B66F442853BFE100F95F99 /* creatingTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F432853BFE100F95F99 /* creatingTransactionView.swift */; };
+		F5B66F472853C72B00F95F99 /* addButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B66F462853C72B00F95F99 /* addButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F5B66F2828538A6B00F95F99 /* CoinKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B66F2C28538A6C00F95F99 /* CoinKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperUITests.swift; sourceTree = "<group>"; };
 		F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B66F3B28538BD800F95F99 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		F5B66F3D28538D3000F95F99 /* transactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionData.swift; sourceTree = "<group>"; };
+		F5B66F432853BFE100F95F99 /* creatingTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creatingTransactionView.swift; sourceTree = "<group>"; };
+		F5B66F462853C72B00F95F99 /* addButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +102,12 @@
 		F5B66F1028538A6700F95F99 /* CoinKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				F5B66F1128538A6700F95F99 /* CoinKeeperApp.swift */,
+				F5B66F402853BF7C00F95F99 /* View */,
 				F5B66F1328538A6700F95F99 /* ContentView.swift */,
+				F5B66F412853BF8600F95F99 /* Model */,
+				F5B66F422853BFA600F95F99 /* Data */,
 				F5B66F1528538A6B00F95F99 /* Assets.xcassets */,
+				F5B66F1128538A6700F95F99 /* CoinKeeperApp.swift */,
 				F5B66F1728538A6B00F95F99 /* Preview Content */,
 			);
 			path = CoinKeeper;
@@ -125,6 +136,39 @@
 				F5B66F2E28538A6C00F95F99 /* CoinKeeperUITestsLaunchTests.swift */,
 			);
 			path = CoinKeeperUITests;
+			sourceTree = "<group>";
+		};
+		F5B66F402853BF7C00F95F99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F452853C71100F95F99 /* Elements */,
+				F5B66F432853BFE100F95F99 /* creatingTransactionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5B66F412853BF8600F95F99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F3B28538BD800F95F99 /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5B66F422853BFA600F95F99 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F3D28538D3000F95F99 /* transactionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F5B66F452853C71100F95F99 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				F5B66F462853C72B00F95F99 /* addButtonView.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B66F3E28538D3000F95F99 /* transactionData.swift in Sources */,
+				F5B66F442853BFE100F95F99 /* creatingTransactionView.swift in Sources */,
+				F5B66F472853C72B00F95F99 /* addButtonView.swift in Sources */,
+				F5B66F3C28538BD800F95F99 /* TransactionModel.swift in Sources */,
 				F5B66F1428538A6700F95F99 /* ContentView.swift in Sources */,
 				F5B66F1228538A6700F95F99 /* CoinKeeperApp.swift in Sources */,
 			);
